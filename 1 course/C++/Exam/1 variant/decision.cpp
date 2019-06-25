@@ -1,6 +1,6 @@
 inside(array, size, rectangle); // как должно вызываться
 
-int inside(const Shape *array, int size, const Shape rect)
+int inside(const Shape *array, int size, const Shape &rect)
 {
   if (array == nullptr)
   {
